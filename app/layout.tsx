@@ -9,7 +9,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <body className="bg-white text-black dark:bg-black dark:text-white transition-colors duration-500">
         <ThemeProvider>
           <Navbar />

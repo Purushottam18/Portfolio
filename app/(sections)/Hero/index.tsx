@@ -14,8 +14,8 @@ export default function Hero() {
                         Hello there! 👋
                     </h1>
 
-                    <h2 className="text-4xl md:text-6xl font-bold mt-4">
-                        I&apos;m <span className="text-pink-500">Purushottam Samleti</span>
+                    <h2 className="text-4xl md:text-4xl font-bold mt-4">
+                        I’m <span className="text-pink-500">Purushottam Samleti</span>
                     </h2>
 
                     <p className="mt-6 text-neutral-600 dark:text-neutral-400 max-w-lg">
