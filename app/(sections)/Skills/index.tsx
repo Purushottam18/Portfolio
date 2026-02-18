@@ -5,14 +5,19 @@ import { skills } from "@/data/skills";
 
 export default function Skills() {
     return (
-        <section className="py-20 bg-gray-50">
+        <section
+            id="skills"
+            className="py-20"
+
+        >
             <div className="max-w-6xl mx-auto px-6">
                 <SectionTitle title="Skills" />
-                <div className="flex flex-wrap gap-4 justify-center">
+                <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6 mt-12">
                     {skills.map((skill) => (
                         <SkillBadge key={skill.id} skill={skill} />
                     ))}
                 </div>
+
             </div>
         </section>
     );

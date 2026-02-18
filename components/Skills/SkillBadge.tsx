@@ -5,7 +5,28 @@ type Props = {
 };
 
 export default function SkillBadge({ skill }: Props) {
+    const Icon = skill.icon;
+
     return (
-        <div className="px-4 py-2 border rounded">{skill.name}</div>
+        <a
+            href={skill.url}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group flex items-center gap-3 px-5 py-3 
+                 bg-neutral-100 dark:bg-neutral-900
+                 border border-neutral-200 dark:border-neutral-800
+                 rounded-xl
+                 hover:border-pink-500 hover:-translate-y-1
+                 transition duration-300"
+        >
+            <Icon
+                className="text-2xl group-hover:scale-110 transition"
+                style={{ color: skill.color }}
+            />
+
+            <span className="text-sm font-medium">
+                {skill.name}
+            </span>
+        </a>
     );
 }
