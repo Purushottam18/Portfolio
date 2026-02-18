@@ -9,14 +9,14 @@ export default function Contact() {
                 {/* LEFT SIDE */}
                 <div>
                     <h2 className="text-4xl md:text-5xl font-bold mb-10">
-                        Contact <span className="text-pink-500">Me!</span>
+                        Contact <span className="text-purple-700">Me!</span>
                     </h2>
 
                     <div className="space-y-6">
 
                         {/* Mail */}
                         <div className="flex items-start gap-4">
-                            <FiMail className="text-pink-500 text-xl mt-1" />
+                            <FiMail className="text-purple-700 text-xl mt-1" />
                             <div>
                                 <h4 className="font-semibold">Mail</h4>
                                 <p className="text-neutral-600 dark:text-neutral-400">
@@ -27,7 +27,7 @@ export default function Contact() {
 
                         {/* Location */}
                         <div className="flex items-start gap-4">
-                            <FiMapPin className="text-pink-500 text-xl mt-1" />
+                            <FiMapPin className="text-purple-700 text-xl mt-1" />
                             <div>
                                 <h4 className="font-semibold">Location</h4>
                                 <p className="text-neutral-600 dark:text-neutral-400">
@@ -44,16 +44,16 @@ export default function Contact() {
                             href="https://github.com/Purushottam18"
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="text-neutral-500 hover:text-pink-500 transition"
+                            className="text-neutral-500 hover:text-purple-700 transition"
                         >
                             <FiGithub />
                         </a>
 
                         <a
-                            href="#"
+                            href="https://www.linkedin.com/in/purushottamsamleti/"
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="text-neutral-500 hover:text-pink-500 transition"
+                            className="text-neutral-500 hover:text-purple-700 transition"
                         >
                             <FiLinkedin />
                         </a>
@@ -69,8 +69,8 @@ export default function Contact() {
                         placeholder="Name"
                         className="w-full bg-neutral-900 border border-neutral-800 
                        px-4 py-3 rounded-md 
-                       focus:outline-none focus:border-pink-500 
-                       text-white  hover:border-pink-500"
+                       focus:outline-none focus:border-purple-700 
+                       text-white  hover:border-purple-700"
                     />
 
                     <input
@@ -78,8 +78,8 @@ export default function Contact() {
                         placeholder="Email"
                         className="w-full bg-neutral-900 border border-neutral-800 
                        px-4 py-3 rounded-md 
-                       focus:outline-none focus:border-pink-500 
-                       text-white  hover:border-pink-500"
+                       focus:outline-none focus:border-purple-700 
+                       text-white  hover:border-purple-700"
                     />
 
                     <textarea
@@ -87,15 +87,15 @@ export default function Contact() {
                         placeholder="Message"
                         className="w-full bg-neutral-900 border border-neutral-800 
                        px-4 py-3 rounded-md 
-                       focus:outline-none focus:border-pink-500 
-                       text-white  hover:border-pink-500"
+                       focus:outline-none focus:border-purple-700 
+                       text-white  hover:border-purple-700"
                     />
 
                     <button
                         type="submit"
-                        className="px-6 py-3 border border-pink-500 
-                       text-pink-500 rounded-md 
-                       hover:bg-pink-500 hover:text-black 
+                        className="px-6 py-3 border border-purple-700 
+                       text-purple-700 rounded-md 
+                       hover:bg-purple-700 hover:text-black 
                        transition"
                     >
                         Submit

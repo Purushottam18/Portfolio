@@ -14,11 +14,11 @@ export default function Hero() {
                         Hello there! 👋
                     </h1>
 
-                    <h2 className="text-4xl md:text-4xl font-bold mt-4">
-                        I’m <span className="text-pink-500">Purushottam Samleti</span>
+                    <h2 className="text-3xl md:text-3xl font-bold mt-4">
+                        I’m <span className="text-purple-700">Purushottam Samleti</span>
                     </h2>
 
-                    <p className="mt-6 text-neutral-600 dark:text-neutral-400 max-w-lg">
+                    <p className="mt-6 text-neutral-600 text-xl dark:text-neutral-400 max-w-lg">
                         I&apos;m a frontend developer passionate about crafting modern,
                         scalable and user-focused web & mobile experiences.
                     </p>

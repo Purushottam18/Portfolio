@@ -3,15 +3,15 @@ import SectionTitle from "@/components/Section/Section";
 
 export default function Experience() {
     return (
-        <section id="experience" className="py-20">
-            <div className="max-w-4xl mx-auto px-6">
+        <section id="experience" className="py-10">
+            <div className="max-w-6xl mx-auto px-6">
                 <SectionTitle title="Experience" />
 
                 <div className="space-y-10 mt-12">
                     {experience.map((exp) => (
                         <div
                             key={exp.id}
-                            className="border-l-2 border-pink-500 pl-6"
+                            className="border-l-2 border-purple-700 pl-6"
                         >
                             <h3 className="text-xl font-semibold">
                                 {exp.role}

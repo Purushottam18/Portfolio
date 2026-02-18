@@ -7,6 +7,10 @@ import {
   SiApple,
   SiTypescript,
   SiJavascript,
+  SiHtml5,
+  SiCss3,
+  SiFigma,
+  SiFlutter,
 } from "react-icons/si";
 
 export const skills: Skill[] = [
@@ -66,7 +70,32 @@ export const skills: Skill[] = [
     url: "https://developer.mozilla.org/",
     color: "#F7DF1E",
   },
-  // { id: "9", name: "HTML", icon: "/images/icons/skillIcons/html.svg", url: "https://developer.mozilla.org/en-US/docs/Web/HTML" },
-  // { id: "10", name: "CSS", icon: "/images/icons/skillIcons/css.svg", url: "https://developer.mozilla.org/en-US/docs/Web/CSS" },
-  // { id: "11", name: "Figma", icon: "/images/icons/skillIcons/figma.svg", url: "https://www.figma.com/" },
+  {
+    id: "9",
+    name: "HTML",
+    icon: SiHtml5,
+    url: "https://developer.mozilla.org/en-US/docs/Web/HTML",
+    color: "#E34F26",
+  },
+  {
+    id: "10",
+    name: "CSS",
+    icon: SiCss3,
+    url: "https://developer.mozilla.org/en-US/docs/Web/CSS",
+    color: "#1572B6",
+  },
+  {
+    id: "11",
+    name: "Figma",
+    icon: SiFigma,
+    url: "https://www.figma.com/",
+    color: "#F24E1E",
+  },
+  {
+    id: "12",
+    name: "Flutter",
+    icon: SiFlutter,
+    url: "https://flutter.dev/",
+    color: "#02569B",
+  },
 ];

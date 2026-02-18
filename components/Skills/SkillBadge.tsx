@@ -16,7 +16,7 @@ export default function SkillBadge({ skill }: Props) {
                  bg-neutral-100 dark:bg-neutral-900
                  border border-neutral-200 dark:border-neutral-800
                  rounded-xl
-                 hover:border-pink-500 hover:-translate-y-1
+                 hover:border-purple-700 hover:-translate-y-1
                  transition duration-300"
         >
             <Icon
