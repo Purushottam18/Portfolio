@@ -1,0 +1,264 @@
+{
+  "app": {
+    "api": {},
+    "layout.tsx": {
+      "Name": "layout.tsx",
+      "Path": "c:\\Users\\csaml\\Desktop\\portfolio\\app\\layout.tsx",
+      "Language": "tsx",
+      "Extension": "tsx",
+      "Functions": 1,
+      "Classes": 0,
+      "Imports": 3,
+      "IsMinified": false
+    },
+    "page.tsx": {
+      "Name": "page.tsx",
+      "Path": "c:\\Users\\csaml\\Desktop\\portfolio\\app\\page.tsx",
+      "Language": "tsx",
+      "Extension": "tsx",
+      "Functions": 1,
+      "Classes": 0,
+      "Imports": 6,
+      "IsMinified": false
+    },
+    "sections": {
+      "About": {
+        "index.tsx": {
+          "Name": "index.tsx",
+          "Path": "c:\\Users\\csaml\\Desktop\\portfolio\\app\\sections\\About\\index.tsx",
+          "Language": "tsx",
+          "Extension": "tsx",
+          "Functions": 1,
+          "Classes": 0,
+          "Imports": 1,
+          "IsMinified": false
+        }
+      },
+      "Contact": {
+        "index.tsx": {
+          "Name": "index.tsx",
+          "Path": "c:\\Users\\csaml\\Desktop\\portfolio\\app\\sections\\Contact\\index.tsx",
+          "Language": "tsx",
+          "Extension": "tsx",
+          "Functions": 1,
+          "Classes": 0,
+          "Imports": 1,
+          "IsMinified": false
+        }
+      },
+      "Experience": {
+        "index.tsx": {
+          "Name": "index.tsx",
+          "Path": "c:\\Users\\csaml\\Desktop\\portfolio\\app\\sections\\Experience\\index.tsx",
+          "Language": "tsx",
+          "Extension": "tsx",
+          "Functions": 2,
+          "Classes": 0,
+          "Imports": 2,
+          "IsMinified": false
+        }
+      },
+      "Home": {
+        "index.tsx": {
+          "Name": "index.tsx",
+          "Path": "c:\\Users\\csaml\\Desktop\\portfolio\\app\\sections\\Home\\index.tsx",
+          "Language": "tsx",
+          "Extension": "tsx",
+          "Functions": 1,
+          "Classes": 0,
+          "Imports": 0,
+          "IsMinified": false
+        }
+      },
+      "Projects": {
+        "index.tsx": {
+          "Name": "index.tsx",
+          "Path": "c:\\Users\\csaml\\Desktop\\portfolio\\app\\sections\\Projects\\index.tsx",
+          "Language": "tsx",
+          "Extension": "tsx",
+          "Functions": 2,
+          "Classes": 0,
+          "Imports": 3,
+          "IsMinified": false
+        }
+      },
+      "Skills": {
+        "index.tsx": {
+          "Name": "index.tsx",
+          "Path": "c:\\Users\\csaml\\Desktop\\portfolio\\app\\sections\\Skills\\index.tsx",
+          "Language": "tsx",
+          "Extension": "tsx",
+          "Functions": 2,
+          "Classes": 0,
+          "Imports": 3,
+          "IsMinified": false
+        }
+      }
+    }
+  }
+}
+
+{
+  "components": {
+    "Button": {
+      "Button.tsx": {
+        "Name": "Button.tsx",
+        "Path": "c:\\Users\\csaml\\Desktop\\portfolio\\components\\Button\\Button.tsx",
+        "Language": "tsx",
+        "Extension": "tsx",
+        "Functions": 1,
+        "Classes": 0,
+        "Imports": 0,
+        "IsMinified": false
+      }
+    },
+    "Footer": {
+      "Footer.tsx": {
+        "Name": "Footer.tsx",
+        "Path": "c:\\Users\\csaml\\Desktop\\portfolio\\components\\Footer\\Footer.tsx",
+        "Language": "tsx",
+        "Extension": "tsx",
+        "Functions": 1,
+        "Classes": 0,
+        "Imports": 0,
+        "IsMinified": false
+      }
+    },
+    "Navbar": {
+      "Navbar.tsx": {
+        "Name": "Navbar.tsx",
+        "Path": "c:\\Users\\csaml\\Desktop\\portfolio\\components\\Navbar\\Navbar.tsx",
+        "Language": "tsx",
+        "Extension": "tsx",
+        "Functions": 1,
+        "Classes": 0,
+        "Imports": 0,
+        "IsMinified": false
+      }
+    },
+    "Project": {
+      "ProjectCard.tsx": {
+        "Name": "ProjectCard.tsx",
+        "Path": "c:\\Users\\csaml\\Desktop\\portfolio\\components\\Project\\ProjectCard.tsx",
+        "Language": "tsx",
+        "Extension": "tsx",
+        "Functions": 2,
+        "Classes": 0,
+        "Imports": 1,
+        "IsMinified": false
+      }
+    },
+    "Section": {
+      "Section.tsx": {
+        "Name": "Section.tsx",
+        "Path": "c:\\Users\\csaml\\Desktop\\portfolio\\components\\Section\\Section.tsx",
+        "Language": "tsx",
+        "Extension": "tsx",
+        "Functions": 1,
+        "Classes": 0,
+        "Imports": 0,
+        "IsMinified": false
+      }
+    },
+    "Skills": {
+      "Skill.tsx": {
+        "Name": "Skill.tsx",
+        "Path": "c:\\Users\\csaml\\Desktop\\portfolio\\components\\Skills\\Skill.tsx",
+        "Language": "tsx",
+        "Extension": "tsx",
+        "Functions": 1,
+        "Classes": 0,
+        "Imports": 1,
+        "IsMinified": false
+      }
+    }
+  }
+}
+
+{
+  "data": {
+    "experience.ts": {
+      "Name": "experience.ts",
+      "Path": "c:\\Users\\csaml\\Desktop\\portfolio\\data\\experience.ts",
+      "Language": "ts",
+      "Extension": "ts",
+      "Functions": 0,
+      "Classes": 0,
+      "Imports": 1,
+      "IsMinified": false
+    },
+    "projects.ts": {
+      "Name": "projects.ts",
+      "Path": "c:\\Users\\csaml\\Desktop\\portfolio\\data\\projects.ts",
+      "Language": "ts",
+      "Extension": "ts",
+      "Functions": 0,
+      "Classes": 0,
+      "Imports": 1,
+      "IsMinified": false
+    },
+    "skills.ts": {
+      "Name": "skills.ts",
+      "Path": "c:\\Users\\csaml\\Desktop\\portfolio\\data\\skills.ts",
+      "Language": "ts",
+      "Extension": "ts",
+      "Functions": 0,
+      "Classes": 0,
+      "Imports": 1,
+      "IsMinified": false
+    }
+  }
+}
+
+{
+  "lib": {
+    "utils": {
+      "utils.ts": {
+        "Name": "utils.ts",
+        "Path": "c:\\Users\\csaml\\Desktop\\portfolio\\lib\\utils\\utils.ts",
+        "Language": "ts",
+        "Extension": "ts",
+        "Functions": 0,
+        "Classes": 0,
+        "Imports": 0,
+        "IsMinified": false
+      }
+    }
+  }
+}
+
+
+{
+  "types": {
+    "experience.ts": {
+      "Name": "experience.ts",
+      "Path": "c:\\Users\\csaml\\Desktop\\portfolio\\types\\experience.ts",
+      "Language": "ts",
+      "Extension": "ts",
+      "Functions": 0,
+      "Classes": 0,
+      "Imports": 0,
+      "IsMinified": false
+    },
+    "projects.ts": {
+      "Name": "projects.ts",
+      "Path": "c:\\Users\\csaml\\Desktop\\portfolio\\types\\projects.ts",
+      "Language": "ts",
+      "Extension": "ts",
+      "Functions": 0,
+      "Classes": 0,
+      "Imports": 0,
+      "IsMinified": false
+    },
+    "skills.ts": {
+      "Name": "skills.ts",
+      "Path": "c:\\Users\\csaml\\Desktop\\portfolio\\types\\skills.ts",
+      "Language": "ts",
+      "Extension": "ts",
+      "Functions": 0,
+      "Classes": 0,
+      "Imports": 0,
+      "IsMinified": false
+    }
+  }
+}
