@@ -1,3 +1,4 @@
+import FadeSection from "@/components/Motion/MotionWrapper";
 import About from "./(sections)/About";
 import Contact from "./(sections)/Contact";
 import Experience from "./(sections)/Experience";
@@ -9,12 +10,15 @@ import Skills from "./(sections)/Skills";
 export default function Home() {
   return (
     <>
-      <Hero />
-      <About />
-      <Skills />
-      <Projects />
-      <Experience />
-      <Contact />
+      <FadeSection>
+        <Hero />
+        <About />
+        <Skills />
+        <Projects />
+        <Experience />
+        <Contact />
+      </FadeSection>
+
     </>
   );
 }

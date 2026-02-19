@@ -2,20 +2,35 @@ import SectionTitle from "@/components/Section/Section";
 import SkillBadge from "@/components/Skills/SkillBadge";
 import { skills } from "@/data/skills";
 
-
 export default function Skills() {
-    return (
-        <section
-            id="skills"
-            className="py-6"
+    const midpoint = Math.ceil(skills.length / 2);
+    const topRow = skills.slice(0, midpoint);
+    const bottomRow = skills.slice(midpoint);
 
-        >
-            <div className="max-w-6xl mx-auto px-6">
+    return (
+        <section id="skills" className="py-32 overflow-hidden">
+            <div className="max-w-6xl mx-auto px-6 space-y-16">
+
                 <SectionTitle title="Skills" />
-                <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6 mt-12">
-                    {skills.map((skill) => (
-                        <SkillBadge key={skill.id} skill={skill} />
-                    ))}
+
+                {/* Top Row */}
+                <div className="relative overflow-hidden flex justify-center">
+                    <div className="flex gap-10 animate-[scroll-left_20s_linear_infinite]">
+                        {topRow.map((skill, i) => (
+
+                            <SkillBadge key={`top-${i}`} skill={skill} />
+                        ))}
+                    </div>
+                </div>
+
+
+                {/* Bottom Row */}
+                <div className="relative overflow-hidden flex justify-center">
+                    <div className="flex gap-10 animate-[scroll-right_20s_linear_infinite]">
+                        {bottomRow.map((skill, i) => (
+                            <SkillBadge key={`top-${i}`} skill={skill} />
+                        ))}
+                    </div>
                 </div>
 
             </div>

@@ -2,6 +2,7 @@ import Navbar from "@/components/Navbar/Navbar";
 import Footer from "@/components/Footer/Footer";
 import ThemeProvider from "@/components/Theme/ThemeProvider";
 import "./globals.css";
+import Cursor from "@/components/Motion/Cursor";
 
 export default function RootLayout({
   children,
@@ -12,6 +13,7 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <body className="bg-white text-black dark:bg-black dark:text-white transition-colors duration-500">
         <ThemeProvider>
+          <Cursor />
           <Navbar />
           <main>{children}</main>
           <Footer />

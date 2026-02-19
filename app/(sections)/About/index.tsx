@@ -11,7 +11,7 @@ export default function About() {
                 I’m a Web & Mobile App Developer with a strong interest in building clean, scalable, and user-friendly applications.
             </p>
             <p className="text-gray-500 text-center">
-                I primarily work with Next.js, React, React Native, and TypeScript, and I enjoy turning ideas into well-structured digital products.
+                I primarily work with React Native, Flutter, Next.js, React and TypeScript, and I enjoy turning ideas into well-structured digital products.
             </p>
 
             <p className="text-gray-500 text-center">

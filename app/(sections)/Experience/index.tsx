@@ -11,7 +11,7 @@ export default function Experience() {
                     {experience.map((exp) => (
                         <div
                             key={exp.id}
-                            className="border-l-2 border-purple-700 pl-6"
+                            className="border-l-2 border-purple-500 pl-6"
                         >
                             <h3 className="text-xl font-semibold">
                                 {exp.role}

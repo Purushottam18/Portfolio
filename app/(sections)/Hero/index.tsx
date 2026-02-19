@@ -1,4 +1,5 @@
 import Image from "next/image";
+import DecryptedText from "@/components/Motion/DecreptedText";
 
 export default function Hero() {
     return (
@@ -9,13 +10,14 @@ export default function Hero() {
             <div className="max-w-7xl mx-auto w-full grid md:grid-cols-2 gap-16 items-center">
 
                 {/* Text */}
+
                 <div>
                     <h1 className="text-4xl md:text-6xl font-bold leading-tight">
                         Hello there! 👋
                     </h1>
 
                     <h2 className="text-3xl md:text-3xl font-bold mt-4">
-                        I’m <span className="text-purple-700">Purushottam Samleti</span>
+                        I’m <span className="text-purple-500"><DecryptedText text="Purushottam Samleti" /></span>
                     </h2>
 
                     <p className="mt-6 text-neutral-600 text-xl dark:text-neutral-400 max-w-lg">

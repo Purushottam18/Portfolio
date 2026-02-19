@@ -9,7 +9,7 @@ export default function ProjectCard({ project }: Props) {
         <div className="group bg-neutral-100 dark:bg-neutral-900 
                     border border-neutral-200 dark:border-neutral-800 
                     rounded-xl p-6 transition 
-                    hover:border-purple-700 hover:-translate-y-1 
+                    hover:border-purple-500 hover:-translate-y-1 
                     hover:shadow-lg">
 
             <h3 className="text-xl font-semibold mb-3">
@@ -35,7 +35,7 @@ export default function ProjectCard({ project }: Props) {
 
             <a
                 // href={project.link}
-                className="text-sm font-medium text-purple-700 
+                className="text-sm font-medium text-purple-500 
                    hover:underline"
             >
                 View Project →
