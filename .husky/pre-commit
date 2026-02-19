@@ -1,0 +1,10 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+echo "Running lint-staged..."
+npx lint-staged
+
+echo "Running TypeScript type check..."
+npx tsc --noEmit
+
+npm run type-check
