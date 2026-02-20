@@ -1,7 +1,34 @@
-import { FiMail, FiMapPin, FiGithub, FiLinkedin } from "react-icons/fi";
+"use client"
 
+import { useRef } from "react"
+import emailjs from "@emailjs/browser"
+import { FiMail, FiMapPin, FiGithub, FiLinkedin } from "react-icons/fi"
 
 export default function Contact() {
+    const formRef = useRef<HTMLFormElement>(null)
+
+    const handleSubmit = async (e: React.FormEvent) => {
+        e.preventDefault()
+
+        if (!formRef.current) return
+
+        try {
+            await emailjs.sendForm(
+                "service_d3lsn8j",
+                "template_ony1z0v",
+                formRef.current,
+                "Rq3pX1WU0rLe2qKEj"
+            )
+
+            alert("Message sent successfully")
+            formRef.current.reset()
+
+        } catch (error) {
+            console.error(error)
+            alert("Failed to send message")
+        }
+    }
+
     return (
         <section id="contact" className="py-32">
             <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-16">
@@ -14,7 +41,6 @@ export default function Contact() {
 
                     <div className="space-y-6">
 
-                        {/* Mail */}
                         <div className="flex items-start gap-4">
                             <FiMail className="text-purple-500 text-xl mt-1" />
                             <div>
@@ -25,7 +51,6 @@ export default function Contact() {
                             </div>
                         </div>
 
-                        {/* Location */}
                         <div className="flex items-start gap-4">
                             <FiMapPin className="text-purple-500 text-xl mt-1" />
                             <div>
@@ -35,10 +60,8 @@ export default function Contact() {
                                 </p>
                             </div>
                         </div>
-
                     </div>
 
-                    {/* Social Icons */}
                     <div className="flex gap-6 mt-10 text-2xl">
                         <a
                             href="https://github.com/Purushottam18"
@@ -60,49 +83,55 @@ export default function Contact() {
                     </div>
                 </div>
 
-
                 {/* RIGHT SIDE FORM */}
-                <form className="space-y-6">
+                <form ref={formRef} onSubmit={handleSubmit} className="space-y-6">
 
                     <input
+                        name="name"        // MUST match {{name}}
                         type="text"
                         placeholder="Name"
+                        required
                         className="w-full bg-neutral-900 border border-neutral-800 
-                       px-4 py-3 rounded-md 
-                       focus:outline-none focus:border-purple-500 
-                       text-white  hover:border-purple-500"
+                        px-4 py-3 rounded-md 
+                        focus:outline-none focus:border-purple-500 
+                        text-white hover:border-purple-500"
                     />
 
                     <input
+                        name="email"       // MUST match {{email}}
                         type="email"
                         placeholder="Email"
+                        required
                         className="w-full bg-neutral-900 border border-neutral-800 
-                       px-4 py-3 rounded-md 
-                       focus:outline-none focus:border-purple-500 
-                       text-white  hover:border-purple-500"
+                        px-4 py-3 rounded-md 
+                        focus:outline-none focus:border-purple-500 
+                        text-white hover:border-purple-500"
                     />
 
                     <textarea
+                        name="message"     // MUST match {{message}}
                         rows={5}
                         placeholder="Message"
+                        required
                         className="w-full bg-neutral-900 border border-neutral-800 
-                       px-4 py-3 rounded-md 
-                       focus:outline-none focus:border-purple-500 
-                       text-white  hover:border-purple-500"
+                        px-4 py-3 rounded-md 
+                        focus:outline-none focus:border-purple-500 
+                        text-white hover:border-purple-500"
                     />
 
                     <button
                         type="submit"
                         className="px-6 py-3 border border-purple-500 
-                       text-purple-500 rounded-md 
-                       hover:bg-purple-500 hover:text-black 
-                       transition"
+                        text-purple-500 rounded-md 
+                        hover:bg-purple-500 hover:text-black 
+                        transition"
                     >
                         Submit
                     </button>
+
                 </form>
 
             </div>
         </section>
-    );
+    )
 }
