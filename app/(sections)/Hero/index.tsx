@@ -1,5 +1,5 @@
+import DecryptedText from "@/components/Motion/DecryptedText";
 import Image from "next/image";
-import DecryptedText from "@/components/Motion/DecreptedText";
 
 export default function Hero() {
     return (
